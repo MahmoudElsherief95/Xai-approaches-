@@ -1,0 +1,22 @@
+name: xai_model_explanation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - notebook
+  - jupyter
+  - jupyterlab
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - altair
+  - lime
+  - shap
+  - pip:
+      - dice_ml
